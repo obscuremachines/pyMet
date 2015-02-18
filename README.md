@@ -20,7 +20,7 @@ pyMet is a simple visual metronome written in Python for a CLI (command line int
   
 2. Future Improvement Ideas (please feel welcome to contribute)
 
-  ⍻ Added:2/18/2014 User defined time signature - counting range via initial prompt. Ex. "How many counts? 6" Then       the program will cycle through 1-6.
+  ⍻ Added on 2/18/2014. User defined time signature - counting range via initial prompt. Ex. "How many counts? 6"        Then the program will cycle through 1-6.
   * Instead of the counts appearing on a new line, they appear in the same spot on one line. 
   * Add a stop and start with "spacebar". 
   * Add a restart with a single key command like enter.
