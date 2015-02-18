@@ -8,16 +8,17 @@ x = int(raw_input("BPM:"))
 timeSignature = int(raw_input("How many counts?"))
 
 #calculates the count interval using the user's BPM
-metspeed = 60.0 / x 
+metSpeed = 60.0 / x 
 
 #cycles through the defined range
-counts = cycle(xrange(1, timeSignature + 1))
+count = cycle(xrange(1, timeSignature + 1))
+
 
 #prints the counts in the range in order one at a time
 def visual():
-    print next(counts)
-    Timer(metspeed, visual).start()
-
+    countDisplay = next(count)
+    print countDisplay
+    Timer(metSpeed, visual).start()
+    
 #calls the visual function
 visual()
-
